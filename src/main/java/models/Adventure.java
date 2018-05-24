@@ -23,9 +23,9 @@ public class Adventure {
 
     public Boolean choice(String userReturn) {
         if(userReturn.equals("a")) {
-            return null;
+            return true;
         } else if (userReturn.equals("b")) {
-            return null;
+            return false;
         } else {
             return null;
         }
