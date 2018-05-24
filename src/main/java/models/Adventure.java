@@ -9,4 +9,7 @@ public class Adventure {
         this.heroTime = 10;
     }
 
+    public String getHeroName() {
+        return null;
+    }
 }

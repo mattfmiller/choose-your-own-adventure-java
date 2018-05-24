@@ -10,4 +10,10 @@ public class AdventureTest {
         Adventure testAdventure = new Adventure("Matt");
         assertTrue(testAdventure instanceof Adventure);
     }
+
+    @Test
+    public void newAdventure_getsName_matt() throws Exception{
+        Adventure testAdventure = new Adventure("Matt");
+        assertEquals("Matt", testAdventure.getHeroName());
+    }
 }
