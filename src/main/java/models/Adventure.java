@@ -33,9 +33,9 @@ public class Adventure {
 
     public Boolean checkLose() {
         if (heroTime > 0) {
-            return null;
+            return true;
         } else {
-            return null;
+            return false;
         }
     }
 }
