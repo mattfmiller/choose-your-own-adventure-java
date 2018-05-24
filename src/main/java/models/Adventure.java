@@ -1,8 +1,8 @@
 package models;
 
 public class Adventure {
-    public String heroName;
-    public Integer heroTime;
+    private String heroName;
+    private Integer heroTime;
 
     public Adventure(String heroName) {
         this.heroName = heroName;
@@ -15,5 +15,9 @@ public class Adventure {
 
     public Integer getHeroTime() {
         return 10;
+    }
+
+    public Integer setHeroTime(Integer timechoiceTakes) {
+        return heroTime - 0;
     }
 }

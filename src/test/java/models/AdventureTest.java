@@ -23,4 +23,11 @@ public class AdventureTest {
         Integer expected = 10;
         assertEquals(expected, testAdventure.getHeroTime());
     }
+
+    @Test
+    public void setTime_setsHeroTime_7() throws Exception {
+        Adventure testAventure = new Adventure("Matt");
+        Integer expected = 7;
+        assertEquals(expected, testAventure.setHeroTime(3));
+    }
 }
