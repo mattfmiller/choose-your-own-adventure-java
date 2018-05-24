@@ -30,4 +30,11 @@ public class AdventureTest {
         Integer expected = 7;
         assertEquals(expected, testAventure.setHeroTime(3));
     }
+
+    @Test
+    public void choice_shouldReturnBoolean_true() throws Exception {
+        Adventure testAventure = new Adventure("Matt");
+        Boolean expected = true;
+        assertEquals(expected, testAventure.choice("a"));
+    }
 }

@@ -17,7 +17,17 @@ public class Adventure {
         return 10;
     }
 
-    public Integer setHeroTime(Integer timechoiceTakes) {
+    public Integer setHeroTime(int timechoiceTakes) {
         return heroTime - timechoiceTakes;
+    }
+
+    public Boolean choice(String userReturn) {
+        if(userReturn.equals("a")) {
+            return null;
+        } else if (userReturn.equals("b")) {
+            return null;
+        } else {
+            return null;
+        }
     }
 }
