@@ -10,6 +10,6 @@ public class Adventure {
     }
 
     public String getHeroName() {
-        return null;
+        return heroName;
     }
 }
