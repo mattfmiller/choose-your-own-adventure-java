@@ -12,8 +12,15 @@ public class AdventureTest {
     }
 
     @Test
-    public void newAdventure_getsName_matt() throws Exception{
+    public void newAdventure_getsHeroName_matt() throws Exception{
         Adventure testAdventure = new Adventure("Matt");
         assertEquals("Matt", testAdventure.getHeroName());
+    }
+
+    @Test
+    public void newAdventure_getsHeroTime_matt() throws Exception{
+        Adventure testAdventure = new Adventure("Matt");
+        Integer expected = 10;
+        assertEquals(expected, testAdventure.getHeroTime());
     }
 }

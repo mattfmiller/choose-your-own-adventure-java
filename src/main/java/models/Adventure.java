@@ -12,4 +12,8 @@ public class Adventure {
     public String getHeroName() {
         return heroName;
     }
+
+    public Integer getHeroTime() {
+        return 0;
+    }
 }
