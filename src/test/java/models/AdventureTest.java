@@ -37,4 +37,11 @@ public class AdventureTest {
         Boolean expected = true;
         assertEquals(expected, testAventure.choice("a"));
     }
+
+    @Test
+    public void checkLose_shouldReturnBoolean_true() {
+        Adventure testAventure = new Adventure("Matt");
+        Boolean expected = true;
+        assertEquals(expected, testAventure.checkLose());
+    }
 }
