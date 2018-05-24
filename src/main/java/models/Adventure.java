@@ -18,6 +18,6 @@ public class Adventure {
     }
 
     public Integer setHeroTime(Integer timechoiceTakes) {
-        return heroTime - 0;
+        return heroTime - timechoiceTakes;
     }
 }
