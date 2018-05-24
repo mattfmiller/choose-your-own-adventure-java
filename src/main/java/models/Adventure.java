@@ -14,6 +14,6 @@ public class Adventure {
     }
 
     public Integer getHeroTime() {
-        return 0;
+        return 10;
     }
 }
